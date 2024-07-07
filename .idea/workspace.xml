@@ -4,14 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd9fd4ee-04c8-460d-8fad-9dcdaccdc55e" name="Changes" comment="first commit" />
+    <list default="true" id="bd9fd4ee-04c8-460d-8fad-9dcdaccdc55e" name="Changes" comment="feat: init project">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lottery-common/src/main/java/cn/itedus/lottery/common/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lottery-common/src/main/java/cn/itedus/lottery/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lottery-infrastructure/src/main/java/cn/itedus/lottery/infrastructure/dao/IActivityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lottery-infrastructure/src/main/java/cn/itedus/lottery/infrastructure/po/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lottery-interfaces/src/main/java/cn/itedus/lottery/LotteryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lottery-interfaces/src/main/java/cn/itedus/lottery/interfaces/ActivityBooth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lottery-interfaces/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lottery-interfaces/src/main/resources/mybatis/config/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lottery-interfaces/src/main/resources/mybatis/mapper/Activity_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lottery-interfaces/src/test/java/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lottery-interfaces/src/test/java/test/RpcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lottery-rpc/src/main/java/cn/itedus/lottery/rpc/IActivityBooth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lottery-rpc/src/main/java/cn/itedus/lottery/rpc/dto/ActivityDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lottery-rpc/src/main/java/cn/itedus/lottery/rpc/req/ActivityReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lottery-rpc/src/main/java/cn/itedus/lottery/rpc/res/ActivityRes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lottery-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery-application/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lottery-application/src/main/java/org/example/lottery/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lottery-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery-common/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lottery-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery-domain/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lottery-domain/src/main/java/org/example/lottery/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lottery-infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery-infrastructure/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery-interfaces/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lottery-interfaces/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery-interfaces/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery-rpc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lottery-rpc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery-rpc/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
@@ -24,18 +66,126 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ApiTest.test_insert.executor": "Run",
+    "JUnit.ApiTest.test_rpc.executor": "Run",
+    "JUnit.RpcTest.executor": "Run",
+    "JUnit.RpcTest.test_rpc.executor": "Run",
+    "Maven.lottery-common [clean].executor": "Run",
+    "Maven.lottery-common [install].executor": "Run",
+    "Maven.lottery-infrastructure [clean].executor": "Run",
+    "Maven.lottery-infrastructure [install].executor": "Run",
+    "Maven.lottery-interfaces [clean].executor": "Run",
+    "Maven.lottery-rpc [clean].executor": "Run",
+    "Maven.lottery-rpc [validate].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.LotteryApplication.executor": "Run",
     "jdk.selected.JAVA_MODULE": "1.8 (2)",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/carynchen/IdeaProjects/Lottery/lottery-interfaces/src/test/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.18261719",
+    "project.structure.side.proportion": "0.30023924",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lottery-interfaces/src/test/java" />
+      <recent name="$PROJECT_DIR$/lottery-interfaces/src/main/resources" />
+      <recent name="$PROJECT_DIR$/lottery-rpc/src/main/java/cn/itedus/lottery/rpc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lottery-interfaces/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.lottery" />
+      <recent name="org.example.lottery.interfaces" />
+      <recent name="org.example.lottery.infrastructure.dao" />
+      <recent name="org.example.lottery.infrastructure.po" />
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RpcTest.test_rpc">
+    <configuration name="ApiTest.test_insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lottery-interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ApiTest" />
+      <option name="METHOD_NAME" value="test_insert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lottery-interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RpcTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcTest.test_rpc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lottery-interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RpcTest" />
+      <option name="METHOD_NAME" value="test_rpc" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LotteryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lottery-interfaces" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itedus.lottery.LotteryApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itedus.lottery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RpcTest.test_rpc" />
+        <item itemvalue="JUnit.RpcTest" />
+        <item itemvalue="Spring Boot.LotteryApplication" />
+        <item itemvalue="JUnit.ApiTest.test_insert" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -51,7 +201,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720260395455</updated>
-      <workItem from="1720260396793" duration="427000" />
+      <workItem from="1720260396793" duration="13655000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -61,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720260563658</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: init project">
+      <option name="closed" value="true" />
+      <created>1720322769755</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720322769755</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,6 +227,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="feat: init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: init project" />
   </component>
 </project>
